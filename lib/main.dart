@@ -16,11 +16,11 @@ class MyApp extends StatelessWidget {
         body: CustomScrollView(
           slivers: [
             SliverAppBar(
-              leading: Icon(
+              leading: const Icon(
                 Icons.menu,
                 color: Colors.white,
               ),
-              titleTextStyle: TextStyle(color: Colors.white),
+              titleTextStyle: const TextStyle(color: Colors.white),
               stretch: true,
               backgroundColor: Colors.deepPurple,
               expandedHeight: 300,
@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
                   ),
                   centerTitle: true,
 
-                  titlePadding: EdgeInsets.all(10),
+                  titlePadding: const EdgeInsets.all(10),
                   //titleTextStyle: TextStyle(),
                   background: Container(
                     color: const Color.fromARGB(255, 118, 90, 6),
